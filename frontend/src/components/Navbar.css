@@ -1,0 +1,33 @@
+/* Basic navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Make navbar responsive on smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar a {
+      margin: 5px 0;
+    }
+  }
+  

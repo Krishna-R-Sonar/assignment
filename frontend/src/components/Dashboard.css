@@ -1,0 +1,49 @@
+/* General container for the dashboard */
+.dashboard-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive table styles */
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table th, .employee-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f4f4f9;
+  }
+  
+  .employee-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive table for smaller devices */
+  @media (max-width: 768px) {
+    .employee-table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .employee-table th, .employee-table td {
+      padding: 8px 10px;
+    }
+  
+    .dashboard-container {
+      padding: 15px;
+    }
+  }
+  

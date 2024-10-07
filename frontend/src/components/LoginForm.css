@@ -1,0 +1,46 @@
+/* Center the login form and make it responsive */
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-form p {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .login-form {
+      padding: 15px;
+      margin: 20px auto;
+    }
+  }
+  
